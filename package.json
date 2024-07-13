@@ -4,6 +4,7 @@
     "main": "index.js",
     "homepage": "https://juliakuznetsovaaaa.github.io/shri2024-task/",
     "scripts": {
+        "dev": "webpack --mode development",
         "build_webpack": "webpack --mode=production --node-env=production",
         "push_to_github_pages": "git subtree push --prefix=dist origin gh-pages",
         "predeploy": "npm run build_webpack",
@@ -30,6 +31,7 @@
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "style-loader": "^3.3.3",
+        "vite": "^5.3.3",
         "webpack": "^5.88.1"
     }
 }

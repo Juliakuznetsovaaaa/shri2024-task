@@ -1,3 +1,6 @@
+/*!*************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./reset.css ***!
+  \*************************************************************/
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -47,6 +50,9 @@ table {
     border-spacing: 0;
 }
 
+/*!**************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./styles.css ***!
+  \**************************************************************/
 html {
     font-size: 100%;
     font-family: Arial, sans-serif;
