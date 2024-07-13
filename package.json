@@ -2,9 +2,12 @@
     "name": "performance-yandex-homework",
     "version": "1.0.0",
     "main": "index.js",
+    "homepage": "https://juliakuznetsovaaaa.github.io/shri2024-task/",
     "scripts": {
         "build_webpack": "webpack --mode=production --node-env=production",
-        "push_to_github_pages": "git subtree push --prefix=dist origin gh-pages"
+        "push_to_github_pages": "git subtree push --prefix=dist origin gh-pages",
+        "predeploy": "npm run build_webpack",
+        "deploy": "npm run push_to_github_pages"
     },
     "author": "",
     "license": "ISC",
